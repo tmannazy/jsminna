@@ -17,11 +17,22 @@ header {
     flex-wrap: wrap;
     height: 100px;
     justify-content: space-between;
-    padding-top: 15px;
     background-color: hsl(212, 100%, 85%);
 }
 
-.menu {}
+.logo-image {
+    padding: 5px 20px 20px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid palevioletred;
+    height: 40%;
+    letter-spacing: .2rem;
+}
+
+.menu {
+    padding-top: 15px;
+}
 
 .menu>li {
     display: inline;
@@ -29,7 +40,8 @@ header {
 }
 
 #navb-last {
-    margin-right: 0;
+    /* margin-right: 10px; */
+    padding-right: 10px;
     background-color: hsl(327, 88%, 55%);
 }
 
@@ -49,4 +61,11 @@ a:visited {
     text-decoration: none;
     color: hsl(0, 59%, 41%);
     font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 646px) {
+    .logo-image,
+    .menu>li {
+        display: block;
+    }
 }
