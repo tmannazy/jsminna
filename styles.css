@@ -140,3 +140,14 @@
                 display: inline-block;
                 margin: 0;
             }
+            
+            .login a {
+                text-decoration: none;
+                color: hsl(120, 0%, 95%);
+            }
+            
+            .login a:hover {
+                text-decoration: underline;
+                background-color: hsl(210, 89%, 15%);
+                color: rgb(20, 196, 240);
+            }
