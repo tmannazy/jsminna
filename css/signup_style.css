@@ -25,19 +25,20 @@ body {
     padding: 2% 4%;
     border-radius: 4px;
     box-shadow: -15px -11px 11px 0px hsla(0, 0%, 0%, 30%), 17px 27px 61px 0 hsla(240, 90%, 90%, 10%);
+    transition: .4s;
 }
 
 .title {
     margin: 2% 0;
     text-align: center;
-    color: lightblue;
+    color: hsl(120, 0%, 95%);
     font-size: xx-large;
     font-weight: 600;
 }
 
 .info {
     text-align: center;
-    color: hsl(0, 80%, 80%);
+    color: hsl(0, 100%, 75%);
     text-transform: capitalize;
     font-size: larger;
     padding-bottom: 2%;
@@ -78,8 +79,8 @@ body {
 .user_field input:focus::placeholder,
 .email_field input:focus::placeholder,
 .pwd_field input:focus::placeholder {
-    color: hsl(0, 70%, 80%);
-    font-weight: 500;
+    color: hsl(0, 100%, 75%);
+    font-weight: 500px;
 }
 
 .user_field input:valid,
@@ -99,7 +100,7 @@ body {
 
 .check_agreement a {
     text-decoration: none;
-    color: hsl(0, 80%, 80%);
+    color: hsl(0, 100%, 75%);
     font-weight: 500;
 }
 
