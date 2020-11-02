@@ -91,7 +91,7 @@
     .input-div.focus:before {
         width: 50%;
         background-color: hsl(0, 88%, 66%);
-        transition: 5s;
+        transition: 10s;
     }
     
     .input-div.one {
@@ -181,6 +181,11 @@
     
     .btn:hover {
         background-position: right;
+    }
+    
+    .btn:focus {
+        box-shadow: inset -5px -2px 10px hsl(330, 39%, 34%), inset 5px 5px 7px hsl(326, 31%, 43%);
+        transition: .5s;
     }
     
     @media only screen and (max-width:1050px) {
